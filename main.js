@@ -6,3 +6,14 @@ $(document).on("ready", function() {
         $(".download.windows").show();
     }
 });
+
+$(document).on("ready", function() {
+    $(".gallery").magnificPopup({
+        closeOnContentClick: false,
+        delegate: "a",
+        gallery: {enabled: true},
+        retina: {ratio: 2},
+        showCloseBtn: true,
+        type: "image",
+    });
+});

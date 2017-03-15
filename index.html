@@ -8,8 +8,8 @@
     <title>Gaupol Subtitle Editor</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico?v=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png?v=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="style.css?v=1">
   </head>
   <body>
@@ -30,11 +30,17 @@
         <a href="https://github.com/otsaloma/gaupol/releases">
           Release details and other downloads</a>
       </p>
-      <a href="screenshot-1.png" class="image" data-lightbox="screenshots">
-        <img class="screenshot" src="screenshot-header.png" alt="Screenshot"></a>
-      <!-- Show more screenshots in the Lightbox carousel, but not on the page. -->
-      <a href="screenshot-2.png" data-lightbox="screenshots" style="display: none;"></a>
-      <a href="screenshot-3.png" data-lightbox="screenshots" style="display: none;"></a>
+      <div class="gallery">
+        <a href="screenshot-1.png">
+          <img class="screenshot"
+               src="screenshot-header.png"
+               srcset="screenshot-header@2x.png 2x"
+               alt="Screenshot">
+        </a>
+        <!-- Show more screenshots in the carousel, but not on the page. -->
+        <a href="screenshot-2.png" style="display: none;"></a>
+        <a href="screenshot-3.png" style="display: none;"></a>
+      </div>
     </div>
     <div id="features" class="container-fluid section">
       <div class="row">
@@ -73,13 +79,13 @@
       <a href="https://gitter.im/otsaloma/gaupol">Discuss</a>
       <a href="https://github.com/otsaloma/gaupol">Code</a>
       <a href="https://github.com/otsaloma/gaupol/issues">Bugs</a>
-      <a href="http://www.transifex.com/otsaloma/gaupol/">Translations</a>
+      <a href="https://www.transifex.com/otsaloma/gaupol/">Translations</a>
       <p>Built and maintained by Osmo Salomaa</p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.1/platform.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.3/platform.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="main.js?v=1"></script>
   </body>
 </html>
