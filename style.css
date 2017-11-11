@@ -72,8 +72,7 @@ p {
   padding: 2rem 4rem;
 }
 
-@media (max-width: 500px),
-(max-height: 500px) {
+@media (max-width: 500px), (max-height: 500px) {
   .section {
     padding: 1rem 1rem;
   }
@@ -95,15 +94,13 @@ p {
   text-align: center;
 }
 
-@media (max-width: 800px),
-(max-height: 800px) {
+@media (max-width: 800px), (max-height: 800px) {
   #header {
     box-shadow: 0px -80px 0px white inset;
   }
 }
 
-@media (max-width: 500px),
-(max-height: 500px) {
+@media (max-width: 500px), (max-height: 500px) {
   #header {
     box-shadow: 0px -40px 0px white inset;
     padding-top: 2rem;
@@ -138,8 +135,7 @@ p {
   padding-top: 3rem;
 }
 
-@media (max-width: 500px),
-(max-height: 500px) {
+@media (max-width: 500px), (max-height: 500px) {
   #features {
     padding-top: 2rem;
   }
