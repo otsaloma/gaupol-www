@@ -16,16 +16,16 @@
     <div id="header" class="container-fluid section">
       <img src="title.svg" alt="Gaupol">
       <p class="lead">Editor for text-based subtitles</p>
-      <p class="download source">
+      <span class="download linux">
         <a href="https://github.com/otsaloma/gaupol/archive/1.4.1.tar.gz"
            class="btn btn-lg btn-primary"
-           role="button"><b>Download</b> gaupol-1.4.1.tar.gz</a>
-      </p>
-      <p class="download windows" style="display: none;">
+           role="button"><b>Get</b> Source 1.4.1</a>
+      </span>
+      <span class="download windows" style="display: none;">
         <a href="https://github.com/otsaloma/gaupol/releases/download/1.3.1/gaupol-1.3.1-win32.exe"
            class="btn btn-lg btn-primary"
-           role="button"><b>Download</b> gaupol-1.3.1-win32.exe</a>
-      </p>
+           role="button"><b>Get</b> Installer 1.3.1</a>
+      </span>
       <p class="description">
         <a href="https://github.com/otsaloma/gaupol/releases">
           Release details and other downloads</a>
@@ -44,33 +44,16 @@
     </div>
     <div id="features" class="container-fluid section">
       <div class="row">
-        <div class="col col-xs-12 col-sm-4">
-          <h3>Edit, Translate, View Subtitles</h3>
-          <p class="description">Gaupol supports multiple subtitle file formats and provides means
-            of creating subtitles, editing texts and timing subtitles to match video. The user
-            interface features a builtin video player and is designed with attention to convenience
-            of translating and batch processing of multiple documents.</p>
+        <div class="col col-xs-12 col-sm-6">
+          <p class="description">Gaupol is an editor for text-based subtitle files. It supports
+            multiple subtitle file formats and provides means of creating subtitles, editing texts
+            and timing subtitles to match video.</p>
         </div>
-        <div class="col col-xs-12 col-sm-4">
-          <h3>Open Source, Cross-Platform</h3>
-          <p class="description">Gaupol is
-            <a href="https://www.gnu.org/philosophy/free-sw.html">free software</a> released under
+        <div class="col col-xs-12 col-sm-6">
+          <p class="description">Gaupol is available for Linux and Windows, released under
             the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License</a>
-            (GPL). Gaupol should technically run on all major operating systems — though practically
-            Linux is fully supported, Windows is currently lacking the builtin video player and use
-            on Mac has not been tested nor made convenient. Gaupol's user interface is based on the
-            GTK+ toolkit and has been designed to best fit the
-            <a href="https://www.gnome.org/">GNOME</a> desktop environment.</p>
-        </div>
-        <div class="col col-xs-12 col-sm-4">
-          <h3>Python Package for Subtitles</h3>
-          <p class="description">Gaupol includes <code>aeidon</code>, a separately installable
-            general-purpose Python package for reading, writing and manipulating text-based subtitle
-            files. It is a part of the Gaupol source tree and released along with Gaupol, but
-            installable separately — and packaged separately in many distros.
-            See <a href="https://github.com/otsaloma/gaupol/blob/master/README.aeidon.md">README.aeidon</a>
-            and the <a href="https://otsaloma.io/gaupol/doc/api/aeidon.html">API documentation</a>
-            for details.</p>
+            (GPL). The user interface is based on the GTK+3 toolkit and has been designed to best
+            fit the <a href="https://www.gnome.org/">GNOME</a> desktop environment.</p>
         </div>
       </div>
     </div>
@@ -80,12 +63,11 @@
       <a href="https://github.com/otsaloma/gaupol">Code</a>
       <a href="https://github.com/otsaloma/gaupol/issues">Bugs</a>
       <a href="https://www.transifex.com/otsaloma/gaupol/">Translations</a>
-      <a href="https://www.paypal.me/otsaloma">Donate</a>
       <p>Built and maintained by Osmo Salomaa</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/platform@1.3.4/platform.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/platform@1.3.5/platform.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
     <script src="main.js?v=1"></script>
   </body>
