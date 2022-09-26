@@ -1,21 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Editor for text-based subtitles.">
+    <meta name="description" content="Editor for text-based subtitles">
     <title>Gaupol Subtitle Editor</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico?v=dev">
+    <link rel="icon" href="favicon.svg?v=dev">
+    <link rel="mask-icon" href="favicon-mask.svg?v=dev" color="#241f31">
     <link rel="apple-touch-icon" href="apple-touch-icon.png?v=dev">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css?v=dev">
   </head>
   <body>
+    <a data-fslightbox href="screenshot-1.png">
+      <div id="screenshot"></div>
+    </a>
+    <a data-fslightbox class="hidden" href="screenshot-2.png"></a>
+    <a data-fslightbox class="hidden" href="screenshot-3.png"></a>
     <div id="header" class="container-fluid section">
-      <img src="title.svg" alt="Gaupol">
-      <p class="lead">Editor for text-based subtitles</p>
+      <h1>Gaupol Subtitle Editor</h1>
       <span class="download linux">
         <a href="https://flathub.org/apps/details/io.otsaloma.gaupol"
            class="btn btn-lg btn-primary"
@@ -26,57 +29,26 @@
            class="btn btn-lg btn-primary"
            role="button"><b>Get</b> Source 1.11</a>
       </span>
-      <span class="download windows" style="display: none;">
-        <a href="https://github.com/otsaloma/gaupol/releases/download/1.3.1/gaupol-1.3.1-win32.exe"
-           class="btn btn-lg btn-primary"
-           role="button"><b>Get</b> Installer 1.3.1</a>
-      </span>
       <p class="description">
-        <a href="https://github.com/otsaloma/gaupol/releases">
-          Release details and other downloads</a>
+        <a href="https://github.com/otsaloma/gaupol/releases">Release details</a>
       </p>
-      <div class="gallery">
-        <a href="screenshot-1.png">
-          <img class="screenshot"
-               src="screenshot-1.png"
-               srcset="screenshot-1@2x.png 2x"
-               alt="Screenshot">
-        </a>
-        <!-- Show more screenshots in the carousel, but not on the page. -->
-        <a href="screenshot-2.png" style="display: none;"></a>
-        <a href="screenshot-3.png" style="display: none;"></a>
-      </div>
     </div>
     <div id="features" class="container-fluid section">
-      <div class="row">
-        <div class="col col-xs-12 col-sm-6">
-          <p class="description">Gaupol is an editor for text-based subtitle files. It helps you
-            with tasks such as creating and translating subtitles, timing subtitles to match video
-            and correcting common errors. Gaupol includes a built-in video player and also supports
-            launching an external one.
-          </p>
-        </div>
-        <div class="col col-xs-12 col-sm-6">
-          <p class="description">Gaupol is available for Linux and Windows, released as Free
-            Software under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public
-            License</a> (GPL). Gaupol's user interface is based on the GTK 3 toolkit and has
-            been designed to best fit the <a href="https://www.gnome.org/">GNOME</a> desktop
-            environment.</p>
-        </div>
-      </div>
+      <p class="description">Gaupol is an editor for text-based subtitle files. It helps you with
+        tasks such as creating and translating subtitles, timing subtitles to match video and
+        correcting common errors. Gaupol includes a built-in video player and also supports launching
+        an external one. Gaupol is available for Linux, released as Free Software under
+        the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License</a> (GPL).</p>
     </div>
     <div id="footer" class="container-fluid section">
-      <a href="https://github.com/otsaloma/gaupol/tree/master/doc">Documentation</a>
       <a href="https://gitter.im/otsaloma/gaupol">Discuss</a>
       <a href="https://github.com/otsaloma/gaupol">Code</a>
-      <a href="https://github.com/otsaloma/gaupol/issues">Bugs</a>
+      <a href="https://github.com/otsaloma/gaupol/tree/master/doc">Documentation</a>
+      <a href="https://github.com/otsaloma/gaupol/issues">Issues</a>
       <a href="https://www.transifex.com/otsaloma/gaupol/">Translations</a>
       <p>Built and maintained by Osmo Salomaa</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/platform@1.3.5/platform.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
-    <script src="main.js?v=dev"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox@3.3.1/index.min.js"></script>
   </body>
 </html>
